@@ -14,3 +14,36 @@
 .header-description{
     margin-top: 5px;
 }
+
+div[name="middle-margin"]{
+    min-width: 400px;
+    border-color: lightgray ;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    padding: 20px 15px 20px 15px;
+}
+
+div[name="content-wrapper"]{
+    
+}
+
+.content-heading{
+    width: auto;
+}
+
+.content-text{
+    width: auto;
+}
+
+.copyright{
+    color: white;
+}
+
+div[name="footer-wrapper"]{
+    padding: 10px 10px 10px 10px;
+}
+
+.footer-content{
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
