@@ -4,7 +4,11 @@
     <title>
       Colin Gregory's Portfolio
     </title>
-
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="stylesheet.css"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -28,9 +32,14 @@
     ></script>
   </head>
   <body>
+    <!--
+      Credit for header image:
+      <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@augustinewong?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Augustine Wong"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Augustine Wong</span></a>
+    -->
+
     <!--Navbar designed by following documentation at https://getbootstrap.com/docs/4.0/components/navbar/-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="navbar-header">
+      <div class="navbar-header ">
         <a class="navbar-brand" href="#">CG Portfolio</a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,19 +48,47 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="#">Home </a>
-          <a class="nav-item nav-link" href="#">Page 1</a>
-          <a class="nav-item nav-link" href="#">Page 2</a>
-          <a class="nav-item nav-link" href="#">Page 3</a>
+          <a class="nav-item nav-link" href="#">About Me</a>
+          <a class="nav-item nav-link" href="#">Projects</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
         </div>
       </div>
     </nav>
-    <!--
-    <div class="container-fluid px-1 py-1 mx-1 my-1">
-      <div class="row no-gutters justify-content-center">
-        <div class="col">About Me</div>
-        <div class="col">Contact Us</div>
+
+    <div class="container-fluid no-gutters px-0" name="page-content">
+      <header class="header-wrapper">
+        <div class="container-fluid h-100" name="image-header">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+              <h2>Welcome to my Portfolio</h2>
+              <p class="header-description">I know the site is clunky, its a work in progress.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+        
+      <div class="container" name="page-content">
+        <div class="row">
+            <div class="col" name="left-margin">
+              <!--left column-->
+              sopme text
+            </div>
+            <div class="col-4" name="middle-margin">
+              <!--content-->
+              content
+            </div>
+            <div class="col" name="right-margin">
+              <!--right column-->
+              some text
+            </div>
+        </div>
       </div>
-    </div>-->
+    </div>
+    
+
   </body>
-  <footer></footer>
+  <footer>
+    <!--<img src="images/marble.jpg">-->
+    <div class="nothing">something</div>
+  </footer>
 </html>

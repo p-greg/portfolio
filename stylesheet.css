@@ -1,0 +1,16 @@
+.header-wrapper {
+    background-image: url("images/marble.jpg");
+    min-height: 250px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nothing{
+    color: red;
+}
+
+.header-description{
+    margin-top: 5px;
+}
