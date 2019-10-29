@@ -1,7 +1,16 @@
 .header-wrapper {
     background-image: url("images/marble.jpg");
     min-height: 250px;
-    height: 50vh;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-wrapper-secondary {
+    background-image: url("images/marble.jpg");
+    min-height: 250px;
+    height: 15vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
