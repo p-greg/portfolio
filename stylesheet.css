@@ -1,49 +1,77 @@
 .header-wrapper {
-    background-image: url("images/marble.jpg");
-    min-height: 250px;
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("images/marble.jpg");
+  min-height: 250px;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.nothing{
-    color: red;
+.header-wrapper-secondary {
+  background-image: url("images/marble.jpg");
+  min-height: 250px;
+  height: 15vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.header-description{
-    margin-top: 5px;
+.nothing {
+  color: red;
 }
 
-div[name="middle-margin"]{
-    min-width: 400px;
-    border-color: lightgray ;
-    border-style: solid;
-    border-width: 0px 1px 1px 1px;
-    padding: 20px 15px 20px 15px;
+.header-description {
+  margin-top: 5px;
 }
 
-div[name="content-wrapper"]{
-    
+div[name="middle-margin"] {
+  min-width: 400px;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  padding: 20px 15px 20px 15px;
 }
 
-.content-heading{
-    width: auto;
+div[name="content-wrapper"] {
 }
 
-.content-text{
-    width: auto;
+.content-heading {
+  width: auto;
 }
 
-.copyright{
-    color: white;
+.content-text {
+  width: auto;
 }
 
-div[name="footer-wrapper"]{
-    padding: 10px 10px 10px 10px;
+.copyright {
+  color: white;
 }
 
-.footer-content{
-    color: white;
-    padding: 0px 0px 0px 0px;
+div[name="footer-wrapper"] {
+  padding: 10px 10px 10px 10px;
+}
+
+.footer-content {
+  color: white;
+  padding: 0px 0px 0px 0px;
+}
+.content-heading {
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.content-text {
+  margin-top: 10px;
+}
+.content-image {
+  width: auto;
+  text-align: center;
+}
+
+.content-image img {
+  width: 50%;
 }
